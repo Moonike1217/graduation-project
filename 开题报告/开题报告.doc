@@ -1,0 +1,1151 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="开题报告.files/filelist.xml">
+<link rel=Edit-Time-Data href="开题报告.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>南京邮电大学</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>change</o:Author>
+  <o:LastAuthor>琳 孙</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>110</o:TotalTime>
+  <o:Created>2011-10-26T05:00:00Z</o:Created>
+  <o:LastSaved>2026-01-09T03:53:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1936</o:Words>
+  <o:Characters>3292</o:Characters>
+  <o:Company>change</o:Company>
+  <o:Lines>88</o:Lines>
+  <o:Paragraphs>49</o:Paragraphs>
+  <o:CharactersWithSpaces>5179</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="开题报告.files/themedata.thmx">
+<link rel=colorSchemeMapping href="开题报告.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="376">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Mention"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Hashtag"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-unhide:no;
+	mso-style-link:"正文文本缩进 字符";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:6.0pt;
+	mso-para-margin-left:2.0gd;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	mso-char-indent-count:2.0;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a
+	{mso-style-name:"正文文本缩进 字符";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:正文文本缩进;
+	mso-ansi-font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:436797609;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2080727534 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:43.0pt;
+	text-indent:-22.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:65.0pt;
+	text-indent:-22.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:87.0pt;
+	text-indent:-22.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:109.0pt;
+	text-indent:-22.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:131.0pt;
+	text-indent:-22.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:153.0pt;
+	text-indent:-22.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:175.0pt;
+	text-indent:-22.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:197.0pt;
+	text-indent:-22.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:219.0pt;
+	text-indent:-22.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]-->
+<script language="JavaScript"  type="text/javascript">
+ 
+/**//* 
+* 
+* @param {Object} cont 要导出的html元素内容的id,注意不要加双引号 
+* @param {Object} key 分页关键字 
+*/ 
+function AllAreaWord(cont,key) 
+{ 
+var oWD = new ActiveXObject("Word.Application"); 
+//默认为页面视图 
+var oDC = oWD.Documents.Add("", 0,0); 
+var oRange = oDC.Range(0, 1); 
+//var oRange1 = oDC.Range(0,2); 
+var sel = document.body.createTextRange(); 
+//参数为html元素id 
+sel.moveToElementText(cont); 
+sel.select(); 
+sel.execCommand("Copy"); 
+oRange.Paste(); 
+oWD.Application.Visible = true; 
+//得到打开后word的selection对象 
+var selection = oWD.Selection; 
+//设置字体大小 
+selection.Font.Size = 10; 
+//ctrl+A 全选操作 
+selection.WholeStory(); 
+//清除格式 
+selection.Find.ClearFormatting(); 
+//指定查找关键字 
+selection.Find.Text = key; 
+//^m为手动分页符标记 
+//向下查找 
+selection.Find.Forward = true; 
+selection.Find.Wrap = 1; 
+//不区分大小写 
+selection.Find.MatchCase = false; 
+//不匹配整个单词 
+selection.Find.MatchWholeWord = false; 
+//如果找到指定字符串返回真,否则返回false 
+while (selection.Find.Execute()) 
+{ 
+//插入分页符,分页符常量为7,具体可查word api 
+selection.InsertBreak(7); 
+} 
+
+window.close();
+} 
+</script>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<div id=test>
+
+<p class=MsoNormal align=center style='text-align:center;tab-stops:343.5pt'><span
+style='font-size:15.0pt;mso-bidi-font-size:12.0pt;font-family:黑体'>南京邮电大学毕业设计<span
+lang=EN-US>(</span>论文<span lang=EN-US>)</span>开题报告<span lang=EN-US><o:p></o:p></span></span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=572
+ style='width:429.1pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:1.0cm;mso-height-rule:
+  exactly'>
+  <td width=79 colspan=2 style='width:58.9pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm;
+  mso-height-rule:exactly'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:343.5pt'><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>题</span> <span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>目</span></p>
+  </td>
+  <td width=494 colspan=5 style='width:370.2pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm;mso-height-rule:
+  exactly'>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span style='font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>数组类型变量状态引导的模糊测试工具的设计与实现</span><span lang=EN-US
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:1.0cm'>
+  <td width=79 colspan=2 style='width:58.9pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:343.5pt'><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>学生姓名</span></p>
+  </td>
+  <td width=159 style='width:119.25pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span style='font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>孙琳</span><span lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=83 style='width:62.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:343.5pt'><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>班级学号</span></p>
+  </td>
+  <td width=83 style='width:62.35pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span lang=EN-US
+  style='font-size:12.0pt'>B22042210<o:p></o:p></span></p>
+  </td>
+  <td width=48 style='width:35.8pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:343.5pt'><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>专业</span></p>
+  </td>
+  <td width=120 style='width:90.3pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.0cm'>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span style='font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>软件工程</span><span lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:377.1pt'>
+  <td width=572 colspan=7 valign=top style='width:429.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:377.1pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;
+  mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;tab-stops:343.5pt'><b><span
+  style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>一、课题任务学习与理解</span></b><b><span
+  lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>在众多的软件测试技术中，模糊测试凭借其自动化程度高、漏洞发现能力强、实施成本低等优势，逐渐成为工业界和学术界广泛关注的研究热点。近年来，随着</span><span
+  lang=EN-US>AFL</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>、</span><span class=SpellE><span
+  lang=EN-US>LibFuzzer</span></span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>等开源模糊测试工具的普及，模糊测试技术得到了快速发展和广泛应用。然而，传统的模糊测试技术主要采用基于覆盖率增长的导向策略，通过代码覆盖率、边覆盖率等指标来评估测试用例的质量，并优先选择能够增加覆盖率的种子进行变异。这种以覆盖率为单一目标的测试策略虽然能够提高代码覆盖的广度，但在触发与特定变量状态相关的错误方面表现不足。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>数组作为一种基本且重要的数据结构，在各类软件程序中得到了广泛的应用。然而，数组相关的安全问题一直是软件漏洞的重要来源。根据</span><span
+  lang=EN-US>CWE</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>数据库的统计，与数组操作相关的漏洞，如</span><span
+  lang=EN-US>CWE-119</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>（缓冲区错误）、</span><span
+  lang=EN-US>CWE-125</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>（越界读取）、</span><span
+  lang=EN-US>CWE-787</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>（越界写入）等，长期占据最常见软件漏洞榜单的前列。现有的模糊测试工具在处理数组相关代码时，通常将数组视为普通的内存区域进行模糊测试，缺乏对数组变量状态的精细化建模和引导，导致许多与数组状态相关的漏洞无法被有效发现。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>针对上述问题，本课题提出了一种基于数组类型变量状态引导的模糊测试方法。该方法的核心思想是，在现有模糊测试工具的基础上，引入数组类型变量状态的多样化和特定状态作为引导机制，通过精细化地建模和分析数组变量的状态，设计状态多样性度量方法和基于状态的测试用例生成策略，从而提高模糊测试对数组相关错误的触发能力。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;
+  mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;tab-stops:343.5pt'><b><span
+  style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>二、文献综述</span></b><b><span
+  lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>模糊测试技术自</span><span lang=EN-US>20</span><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>世纪</span><span lang=EN-US>90</span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>年代提出以来，经历了从盲目随机测试到定向引导测试的发展历程。随着研究的深入，通过引入特定的引导机制将测试资源集中在目标区域或目标代码上，可以显著提高测试的效率和漏洞发现能力，这一认识推动了定向模糊测试技术的快速发展。在定向引导机制的设计方面，国外学者提出了多种创新方法。基于距离的引导策略是其中重要的研究方向之一。</span><span
+  lang=EN-US>B&ouml;hme<sup>[1]</sup></span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>等人提出了一种基于代码距离的灰箱模糊种子排序方法，该方法通过分析测试用例与目标代码之间的代码结构距离，优先选择更有可能触发目标覆盖的测试种子进行变异和执行。虽然该方法突破了传统覆盖率度量的局限，但其引导目标仍然是代码覆盖率的增长，而非程序状态的多样性。在基于代码结构引导的基础上，</span><span
+  class=SpellE><span lang=EN-US>Petsios</span></span><sup><span lang=EN-US>[2]</span></sup><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>等人进一步将函数调用图分析与模糊测试相结合，提出了</span><span class=SpellE><span
+  lang=EN-US>FunFuzz</span></span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>系统。该方法通过构建函数调用图和依赖关系分析，根据函数在程序中的重要性评分来分配测试资源。实验结果表明，这种方法能够识别程序中的关键安全函数并对这些函数进行深度测试，从而提高漏洞发现的针对性。然而，该方法没有深入到函数内部的变量状态层面，特别是对于涉及数组操作的函数，缺乏对数组状态的精细化分析。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>除了基于代码结构和函数重要性的引导策略外，目标状态驱动的引导策略也取得了显著进展。</span><span
+  lang=EN-US>Cha<sup>[3]</sup></span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>等人提出了一种目标状态驱动的定向模糊测试框架</span><span
+  lang=EN-US>SDFUZZ</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>，该系统定义了明确的目标状态集合，通过计算当前程序状态与目标状态之间的状态距离来引导测试方向。然而，该方法对程序状态的建模相对粗粒度，主要关注程序的控制流状态和整体行为状态，没有对复杂数据结构如数组的状态进行精细化建模。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>程序状态的感知和建模是提高模糊测试效果的关键技术之一。在变量状态感知方面，</span><span
+  lang=EN-US>Gan<sup>[4]</sup></span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>等人提出了关键变量状态感知的定向灰盒模糊测试方法。该方法通过静态分析识别程序中的关键变量并在测试过程中动态跟踪这些变量的状态变化。然而，该方法的<span
+  class=GramE>的</span>状态模型相对简单，主要关注变量的取值范围和边界条件，没有充分考虑复杂数据结构如数组的多维状态特征。在有状态系统的测试方面，</span><span
+  lang=EN-US>Chen<sup>[5]</sup></span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>等人专门针对</span><span
+  lang=EN-US>REST API</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>设计了有状态模糊测试框架</span><span
+  class=SpellE><span lang=EN-US>RESTler</span></span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>。该框架通过维护</span><span
+  lang=EN-US>API</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>的状态和会话信息，基于状态转换生成测试用例。虽然</span><span
+  class=SpellE><span lang=EN-US>RESTler</span></span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>的状态建模和状态转换的思想对本研究具有重要的借鉴意义，但其状态模型主要关注</span><span
+  lang=EN-US>API</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>级别的会话状态和资源状态，而不是程序内部的变量状态，因此不能直接应用于数组状态的建模。在启发式状态探索方面，</span><span
+  lang=EN-US>Yuan<sup>[6]</sup></span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>等人创造性地将生物进化中的物种发现算法应用于软件测试领域，提出了</span><span
+  lang=EN-US>STADS</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>系统。该方法将测试用例视为生物个体，通过聚类分析识别出测试输入中的不同</span><span
+  lang=EN-US>&quot;</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>物种</span><span
+  lang=EN-US>&quot;</span><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>，为每个物种分配不同的变异和选择策略。然而，该方法对状态的识别主要依赖于测试输入的特征聚类，而不是程序内部的变量状态分析。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>尽管已有研究在定向模糊测试和状态感知方面取得了显著进展，但仍然存在一些共同的局限性。首先，大多数现有方法主要关注代码覆盖率问题，而没有充分考虑变量状态的细节信息。代码覆盖率虽然能够反映测试的广度，但在触发与特定变量状态相关的错误方面能力不足。其次，现有的状态感知方法大多将状态视为整体进行建模，缺乏对不同类型变量的差异化处理。特别是在处理数组类型变量时，现有方法通常将数组视为普通的内存区域，没有充分考虑到数组变量的特殊性质，如索引范围、索引分布、元素类型、访问模式、长度变化等。最后，现有的测试用例生成策略大多基于随机变异或确定性变异，缺乏对目标状态的主动引导，缺乏针对数组状态特征的专门变异算子。这些局限性正是本课题要解决的核心问题，也为本研究提供了明确的研究方向和创新空间。</span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;
+  mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;tab-stops:343.5pt'><b><span
+  style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>三、初步拟定的执行方案</span></b><b><span
+  lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>本课题将基于现有模糊测试工具进行改进和扩展，选择</span><span
+  lang=EN-US>AFL</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>（</span><span lang=EN-US>American
+  Fuzzy Lop</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>）作为基础平台。</span><span lang=EN-US>AFL</span><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>是一款广泛使用的灰箱模糊测试工具，具有覆盖率引导、种子变异、能量调度等成熟机制，为本课题的实现提供了良好的基础。本课题将在</span><span
+  lang=EN-US>AFL</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>的基础上，添加数组状态识别、状态多样性度量和基于状态的测试用例生成等功能模块，形成完整的数组状态引导模糊测试工具。执行方案的技术路线共包括四个核心模块的设计与实现。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoListParagraph style='margin-left:43.0pt;text-indent:-22.0pt;
+  mso-char-indent-count:0;mso-list:l0 level1 lfo1;tab-stops:343.5pt'><![if !supportLists]><span
+  lang=EN-US style='mso-fareast-font-family:"Times New Roman"'><span
+  style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>数组变量状态识别模块。</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>该模块采用静态分析与动态插桩相结合的方法，静态分析阶段通过编译器前端（如</span><span
+  lang=EN-US>LLVM</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>）识别目标程序中的数组变量声明和定义，收集数组的基本属性信息，包括数组名称、类型、长度、作用域等。动态插桩阶段在编译时对数组访问操作进行插桩，记录每次数组访问的索引值、访问类型（读操作或写操作）、访问上下文（调用<span
+  class=GramE>栈</span>信息）等运行时状态信息。插桩采用轻量级设计，最小化对程序执行效率的影响，状态信息通过共享内存反馈给模糊测试引擎。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoListParagraph style='margin-left:43.0pt;text-indent:-22.0pt;
+  mso-char-indent-count:0;mso-list:l0 level1 lfo1;tab-stops:343.5pt'><![if !supportLists]><span
+  lang=EN-US style='mso-fareast-font-family:"Times New Roman"'><span
+  style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>状态多样性度量模块。</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>该模块负责维护和管理数组变量的状态信息，并计算状态多样性指标。状态信息采用哈希表结构存储，以数组标识符为键，以状态向量为值。状态向量包含数组长度、索引分布统计、边界访问次数、<span
+  class=GramE>异常访问</span>次数等多个维度。状态多样性计算采用信息熵和覆盖度的组合度量，信息熵反映状态分布的广度，覆盖<span
+  class=GramE>度反映</span>对特殊状态（如边界状态）的探索深度。模块定期对测试用例集合进行状态多样性评估，识别状态空间中未<span
+  class=GramE>充分探索</span>的区域，为测试用例生成提供引导信息。</span><span lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoListParagraph style='margin-left:43.0pt;text-indent:-22.0pt;
+  mso-char-indent-count:0;mso-list:l0 level1 lfo1;tab-stops:343.5pt'><![if !supportLists]><span
+  lang=EN-US style='mso-fareast-font-family:"Times New Roman"'><span
+  style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>基于状态的测试用例生成模块。</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>该模块是本课题的核心创新，负责根据状态多样性指标生成定向测试用例。模块设计了一组针对数组状态的专门变异算子，包括索引边界变异算子（逐步增加或减少索引值直至接近或超出边界）、长度调整变异算子（修改输入数据长度以触发缓冲区溢出）、模式识别变异算子（基于历史访问模式生成特定输入）等。变异策略采用两阶段方法，第一阶段根据状态多样性指标选择目标状态和优先级，第二阶段应用相应的变异算子生成测试输入。模块还包括自适应机制，根据执行反馈调整变异参数，如变异强度、变异频率等。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoListParagraph style='margin-left:43.0pt;text-indent:-22.0pt;
+  mso-char-indent-count:0;mso-list:l0 level1 lfo1;tab-stops:343.5pt'><![if !supportLists]><span
+  lang=EN-US style='mso-fareast-font-family:"Times New Roman"'><span
+  style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>集成与反馈模块。</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>该模块负责协调上述三个模块的工作流程，并与</span><span
+  lang=EN-US>AFL</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>的原有机制进行集成。集成方案采用模块化设计，通过定义清晰的接口与</span><span
+  lang=EN-US>AFL</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>的种子选择、变异执行、覆盖率反馈等模块进行交互。反馈机制将数组状态信息与覆盖率信息进行融合，形成综合的测试用例评估指标。在种子选择阶段，优先选择能够增加状态多样性的种子；在变异阶段，根据目标状态选择合适的变异算子；在执行阶段，收集状态信息并更新状态多样性指标；在评估阶段，综合考虑覆盖率增量和状态多样性增量来确定种子的保留或丢弃。</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>整个执行方案遵循原型开发方法，采用迭代增量式的开发策略。首先实现基础的状态识别和收集功能，验证技术可行性；然后实现状态多样性度量功能，完善状态空间的表示和评估；接着实现定向变异算子，形成完整的测试用例生成能力；最后进行系统集成和性能优化，确保工具的实用性和可靠性。</span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;
+  mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;tab-stops:343.5pt'><b><span
+  style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>四、具体进度计划</span></b><b><span
+  lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span lang=EN-US>1 – 2 </span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>周：学习背景知识，完成开题报告；</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span lang=EN-US>3 – 5 </span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>周：需求分析；</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span lang=EN-US>6 – 8 </span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>周：系统设计；</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span lang=EN-US>9 - 10</span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>周：系统实现及测试；</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span lang=EN-US>11-12</span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>周：撰写及修改毕业设计报告；</span></p>
+  <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+  tab-stops:343.5pt'><span lang=EN-US>13-14</span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>周：答辩准备及最终答辩。</span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;
+  mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;tab-stops:343.5pt'><b><span
+  style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+  mso-hansi-font-family:"Times New Roman"'>五、参考文献</span></b><b><span
+  lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-left:21.0pt;mso-para-margin-left:2.0gd;
+  tab-stops:343.5pt'><span lang=EN-US style='mso-bidi-font-size:10.5pt'>[1] <span
+  class=SpellE>Ruixiang</span> Qian, <span class=SpellE>Quanjun</span> Zhang, <span
+  class=SpellE>Chunrong</span> Fang, Ding Yang, Shun Li, Binyu Li, and Zhenyu
+  Chen. <span class=SpellE>DiPri</span>: Distance-Based Seed Prioritization for
+  <span class=SpellE>Greybox</span> Fuzzing [J]. ACM Transactions on Software
+  Engineering and Methodology, 2025, 34(1): Article 26.&nbsp;<br>
+  [2] <span class=SpellE>Ruixiang</span> Qian, <span class=SpellE>Quanjun</span>
+  Zhang, <span class=SpellE>Chunrong</span> Fang, Lihua Guo, and Zhenyu Chen. <span
+  class=SpellE>FunFuzz</span>: <span class=SpellE>Greybox</span> Fuzzing with
+  Function Significance [J]. ACM Transactions on Software Engineering and
+  Methodology, Accepted. &nbsp;<br>
+  [3] Marcel B&ouml;hme, László Szekeres, and Jonathan Metzman. On the reliability
+  of coverage-based <span class=SpellE>fuzzer</span> benchmarking [C]. In
+  Proceedings of the 44th International Conference on Software Engineering
+  (ICSE '22), May 21-29, 2022, Pittsburgh, PA, USA: 1621-1633.&nbsp;<br>
+  [4] <span class=SpellE>Vaggelis</span> <span class=SpellE>Atlidakis</span>,
+  Patrice Godefroid, and Marina Polishchuk. <span class=SpellE>RESTler</span>:
+  stateful REST API fuzzing [C]. In Proceedings of the 41st International
+  Conference on Software Engineering (ICSE '19), May 25-31, 2019, Montreal,
+  Quebec, Canada: 748-758. &nbsp;<br>
+  [5] Marcel B&ouml;hme. STADS: Software Testing as Species Discovery [J]. ACM
+  Transactions on Software Engineering and Methodology, 2018, 27(2): Article
+  7.&nbsp;<br>
+  [6] Xu Chen, Ningning Cui, Zhe Pan, Liwei Chen, Gang Shi, Dan Meng. Critical
+  Variable State-Aware Directed <span class=SpellE>Greybox</span> Fuzzing [C].
+  2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE
+  '25), April 27-May 3, 2025, Ottawa, Canada: &nbsp;141-152.&nbsp;<br>
+  [7] <span class=SpellE>Penghui</span> Li, Wei <span class=SpellE>Meng.SDFUZZ</span>:
+  Target States Driven Directed Fuzzing [C]. 2024 33rd USENIX Security
+  Symposium, August 14-16, 2024, Philadelphia, PA, USA: 2441-2457.&nbsp;<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:21.0pt;mso-para-margin-left:2.0gd;
+  tab-stops:343.5pt'><span lang=EN-US style='mso-bidi-font-size:10.5pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes;height:85.5pt'>
+  <td width=54 style='width:40.4pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:85.5pt'>
+  <p class=MsoNormal align=center style='text-align:center;tab-stops:343.5pt'><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>指导教师批阅意见</span></p>
+  </td>
+  <td width=518 colspan=6 style='width:388.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:85.5pt'>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span lang=EN-US
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span lang=EN-US
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span lang=EN-US
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='tab-stops:343.5pt'><span lang=EN-US><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>指导教师</span><span lang=EN-US>(</span><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>签名</span><span lang=EN-US>)</span><span style='font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>：</span>
+  <span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="图片_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75"
+   style='width:45pt;height:22.5pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="开题报告.files/image001.jpg" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=60 height=30
+  src="开题报告.files/image003.jpg" v:shapes="图片_x0020_1"><![endif]></span><span
+  lang=EN-US><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>年</span> <span style='font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>月</span> <span
+  style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>日</span> </p>
+  </td>
+ </tr>
+ <![if !supportMisalignedColumns]>
+ <tr height=0>
+  <td width=53 style='border:none'></td>
+  <td width=24 style='border:none'></td>
+  <td width=157 style='border:none'></td>
+  <td width=82 style='border:none'></td>
+  <td width=89 style='border:none'></td>
+  <td width=47 style='border:none'></td>
+  <td width=119 style='border:none'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
