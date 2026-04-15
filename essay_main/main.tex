@@ -1,0 +1,249 @@
+\documentclass[bachelor]{njupthesis}
+
+\title{数组类型变量状态引导的模糊测试工具的设计与实现}
+\author{孙琳}
+\advisor{王子元}
+\school{计算机学院、软件学院、网络空间安全学院}
+\major{软件工程}
+\studentclass{B220422}
+\studentid{B22042210}
+\graduateyear{2026}
+\begindate{2025年12月x日}
+\finishdate{2026年5月x日}
+
+
+\begin{document}
+
+\makecover
+
+\begin{chineseabstract}
+在众多软件测试技术中，模糊测试凭借着自动化程度高、漏洞发现能力强、实现成本低等优势，成为广泛关注的研究热点。同时，随着近些年来 AFL、LibFuzzer 等开源工具的普及，模糊测试技术得到快速发展与广泛应用。然而，传统模糊测试多采用以覆盖率增长为核心的导向策略，通过代码覆盖率、边覆盖率等指标来评估测试用例质量，并优先选择能够提升覆盖率的种子进行变异。该策略的确能够有效拓展代码覆盖广度，但难以有效触发与特定变量状态相关的程序错误。
+
+数组作为基础且重要的数据结构，在开发过程中被大量使用，因此数组相关的安全问题也长期是软件漏洞的重要来源之一。据 CWE 数据库统计，CWE-119（缓冲区错误）、CWE-125（越界读取）、CWE-787（越界写入）等数组操作类漏洞，长期位居高频软件漏洞前列。现有模糊测试工具在处理数组相关代码时，通常将数组视为普通内存区域，缺乏对数组变量状态的精细化建模与针对性引导，难以有效发现与数组状态相关的漏洞。
+
+针对上述问题，本文提出一种基于数组类型变量状态引导的模糊测试方法。该方法在现有模糊测试框架基础上，引入数组变量状态多样化与目标状态作为引导机制，通过对数组变量状态进行精细化建模与分析，设计状态多样性度量方法与面向数组状态的测试用例生成策略，从而提升模糊测试对数组相关漏洞的触发与检测能力。
+
+\chinesekeyword{模糊测试；数组状态；状态引导；灰盒测试；AFL}
+\end{chineseabstract}
+
+\begin{englishabstract}
+Among various software testing techniques, fuzzing has gradually become a research hotspot widely concerned by industry and academia due to its high automation, strong vulnerability discovery capability and low implementation cost. In recent years, with the popularization of open-source fuzzing tools such as AFL and LibFuzzer, fuzzing technology has achieved rapid development and wide application. However, traditional fuzzing mainly adopts a coverage-guided strategy, which evaluates the quality of test cases through indicators such as code coverage and edge coverage, and preferentially selects seeds that can increase coverage for mutation. Although this coverage-oriented strategy can improve the breadth of code coverage, it performs poorly in triggering errors related to specific variable states.
+
+As a basic and important data structure, arrays are widely used in various software programs. Nevertheless, array-related security issues have long been a major source of software vulnerabilities. According to the CWE database, array operation-related vulnerabilities such as CWE-119 (Buffer Error), CWE-125 (Out-of-bounds Read) and CWE-787 (Out-of-bounds Write) have long been at the forefront of the most common software vulnerabilities. Existing fuzzing tools usually treat arrays as ordinary memory regions when processing array-related code, lacking refined modeling and guidance of array variable states, resulting in failure to effectively detect many array state-related vulnerabilities.
+
+To address the above problems, this paper proposes a fuzzing method guided by array-type variable states. Based on existing fuzzing frameworks, this method introduces the diversification and specific states of array variables as the guidance mechanism. Through refined modeling and analysis of array variable states, it designs a state diversity metric method and a state-based test case generation strategy, thereby improving the ability of fuzzing to trigger array-related errors.
+
+\englishkeyword{Fuzzing; Array State; State-guided; Grey-box Testing; AFL}
+\end{englishabstract}
+
+\thesistableofcontents
+
+\thesischapterexordium
+
+% 正式章节
+% 第一章 ==========================================================================
+\chapter{绪论} 
+\section{选题背景与意义}
+软件安全是信息系统稳定运行的重要保障，漏洞挖掘与检测技术则是维护软件安全的关键环节。在各类软件缺陷中，数组越界、缓冲区溢出、非法内存访问等问题极易引发程序崩溃、数据泄露乃至系统被入侵，是长期威胁软件安全的重要隐患。因此，针对此类漏洞开展高效、精准的检测技术研究，具有重要的现实价值。
+
+在众多漏洞挖掘技术中，模糊测试凭借自动化程度高、漏洞发现能力强、部署成本低等优势，已成为工业界与学术界广泛使用的主流方案。以 AFL、LibFuzzer 为代表的灰盒模糊测试工具，依靠覆盖率引导策略显著提升了代码覆盖范围，被大量应用于实际项目的安全测试。然而，传统模糊测试以覆盖率为单一导向，缺少对程序内部变量状态的精细化感知，尤其在处理数组这类常用数据结构时，难以有效触发与数组索引、长度、访问模式相关的漏洞。
+
+数组作为最基础的数据结构之一，广泛存在于操作系统、基础组件、嵌入式软件等各类程序中。由数组操作不当引发的安全问题长期占据高危漏洞前列，而现有模糊测试工具通常将数组视为普通内存区域，缺乏针对性的状态建模与引导机制，导致大量数组相关漏洞无法被高效发现。随着软件规模不断扩大、逻辑日趋复杂，传统模糊测试的局限性愈发明显，亟需更具针对性的优化方法。
+
+本课题以数组类型变量为研究对象，提出状态引导的模糊测试改进方案，通过对数组运行时状态进行建模、度量与定向引导，提升漏洞触发能力。该研究不仅能够丰富模糊测试的技术思路，还可为实际工程项目提供更高效的漏洞检测手段，对提升软件安全性、降低安全风险具有重要意义。
+
+\section{国内外研究现状}
+\subsection{传统覆盖率引导模糊测试研究}
+\subsection{状态感知与定向模糊测试研究}
+\subsection{现有研究不足}
+
+\section{主要工作}
+
+\section{论文结构安排}
+
+% 第二章 ==========================================================================
+\chapter{相关理论与技术基础}
+\section{模糊测试基本原理}
+\subsection{模糊测试定义与流程}
+\subsection{AFL 工作原理与架构}
+
+
+\section{数组类型安全漏洞分析}
+\subsection{典型数组漏洞类型}
+\subsection{数组漏洞触发条件与特征}
+
+\section{程序状态建模与动态插桩技术}
+\subsection{程序运行时状态分析}
+\subsection{LLVM动态插桩技术}
+
+\section{本章小结}
+
+% 第三章 ==========================================================================
+\chapter{数组类型变量状态引导模糊测试方法设计}
+\section{总体设计方案}
+
+\section{数组变量运行时状态识别方法}
+\subsection{静态分析：数组属性提取}
+\subsection{动态插桩：数组运行时状态采集}
+\subsection{状态信息存储结构}
+
+\section{数组状态多样性度量模型}
+\subsection{状态向量定义}
+\subsection{信息熵 - 覆盖度组合度量算法}
+\subsection{未探索状态区域识别}
+
+\section{基于数组状态的测试用例生成策略}
+\subsection{数组专用变异算子}
+\subsection{两阶段定向变异流程}
+\subsection{自适应变异参数调整}
+
+\section{状态与覆盖率融合评估机制}
+\section{本章小结}
+
+% 第四章 ==========================================================================
+\chapter{模糊测试工具的实现} 
+\section{开发环境与总体架构}
+
+\section{数组状态采集模块实现}
+
+\subsection{静态分析模块实现}
+\subsection{动态插桩模块实现}
+
+\section{状态度量与反馈模块实现}
+\subsection{状态计算模块实现}
+\subsection{反馈控制逻辑实现}
+
+\section{测试用例生成与变异模块实现}
+\subsection{基础变异逻辑实现}
+\subsection{数组定向变异实现}
+
+\section{工具集成与工作流程}
+\subsection{模块集成方案}
+\subsection{工具使用流程}
+
+\section{本章小结}
+
+% 第五章 ==========================================================================
+\chapter{实验设计与结果分析}
+\section{实验环境与测试对象}
+% \subsection{硬件与软件环境}
+% \subsection{测试用程序与数据集}
+% \subsection{对比工具选择}
+
+\section{实验方案设计}
+\subsection{实验一：状态识别有效性验证}
+\subsection{实验二：状态多样性度量效果}
+\subsection{实验三：数组漏洞发现能力对比}
+\subsection{实验四：性能开销测试}
+
+\section{实验结果与分析}
+\subsection{状态采集准确率}
+\subsection{状态空间探索效率}
+\subsection{数组漏洞触发数量与类型}
+\subsection{执行效率与性能开销}
+
+\section{本章小结}
+
+\chapter*{结束语}
+\chapter*{致谢}
+\chapter*{参考文献}
+
+
+
+% 测试章节 ========================================================================
+\chapter{模板}
+1986年，南京市整体规划向南发展，决定在主城南部建设大型车站，并预留了南京南站地区的规划空间。
+1990年12月，原中华人民共和国铁道部完成《京沪高速铁路线路方案构想报告》。京沪高铁的前期工作进展，极为缓慢，甚至搁浅停滞相当长的一段时间，铁路要在速度上与民航竞争很多人持怀疑态度。
+1991年，南京南站进入早期规划阶段。
+
+\section{选题背景及意义}
+\subsection{名字自己替换}
+1994年12月，中国国务院批准开展京沪高速铁路预可行性研究。铁道部开展京沪高铁选线，提出“北线方案”，即从上元门地区，通过隧道过江。南京的规划部门则拿出“南线方案”，从大胜关过江。铁道部牵头，进行比选得出的结论是：两个方案在技术上都可行，主要差别在于工程造价、经济效益、运营条件等方面。江苏省和南京市要求南线方案，而铁道部看好的始终是北线方案。南京力主南线，是放长了眼光。如果从南京北部走，已经不具备扩建条件。南京火车站虽然前面是玄武湖、背面是小红山，景观很美，但是已经没有拓展空间。此外，更重要的是，在全国任何一个城市，铁路带动城市发展的效果都非常明显，南京要想进一步发展南部区域，这是个好机会。显然，高铁建在哪里，也就意味着南京今后的发展框架，是继续囿于老城狭小的空间里，还是大步向南拓展。铁道部青睐北线的理由：新线与既有线的衔接方便。清末修建的津浦铁路，即从天津到浦口；在长江南岸，之后又修建了沪宁铁路。浦口火车站、下关火车站、南京站，南京重要的火车站，向来都是位于城北。并且，当时铁道部的人都认为，南京的城市中心就在北边。另一方面，铁路的机务段、职工宿舍等都在城北，建成之后，职工上下班都方便。为了说服铁道部，南京方面列出了南线的九大优势：无论高铁从哪里走，从完善南京枢纽总体布局的角度来看，都必须建大胜关长江大桥；根据国务院批准的南京城市规划，南京城市今后将主要向东南方向发展，大胜关方案符合城市扩展方向；南面的场站位置已预留多年，有较为理想的建站条件；沿线拆迁量小，对城市干扰和环境影响小；利于形成方便的铁路——航空换乘及铁路与城市道路联结条件……不过，这些最初并没有打动铁道部，铁道部仍然坚持北线方，双方为此对峙了好几年。
+
+
+\subsection{国内外研究现状}
+1995年，为了促进高铁尽快上马，南京稍稍“松口”。在当年的一份紧急报告里，有这样一句话——“南北方案之争不宜过多坚持，而从规划上对北线方案提出完善意见为妥”。南京市规划局做了两手准备，针对南线、北线方案，分别做了规划控制。从1995年起，南京根据两个方案，开始分别严格控制沿线用地建设，同时冻结了南北两条线周围的土地。而这个具有预见性的做法，使得后来的工作变得轻松许多。
+
+南京南站如图\ref{南京南站}所示。
+\begin{figure}[hbt]
+	\centering
+	\subfigure[南京南1]{
+		\begin{minipage}[b]{0.4\textwidth}
+			\includegraphics[width=1\textwidth]{1}
+		\end{minipage}
+	}
+	\subfigure[南京南2]{
+		\begin{minipage}[b]{0.4\textwidth}
+			\includegraphics[width=1\textwidth]{2}
+			
+		\end{minipage}
+	} \\
+	\subfigure[南京南3]{
+		\begin{minipage}[b]{0.4\textwidth}
+			\includegraphics[width=1\textwidth]{3}
+		\end{minipage}
+	}
+	\subfigure[南京南4]{
+		\begin{minipage}[b]{0.4\textwidth}
+			\includegraphics[width=1\textwidth]{4}
+			
+		\end{minipage}
+	}
+	\caption{南京南站}
+	\label{南京南站}
+\end{figure}
+
+
+\section{俄罗斯和乌克兰}
+本论文主要创新点与贡献如下\cite{荣洁2005俄罗斯民族性格和文化}:
+
+xxxxxxxxxxxxxx
+
+
+\section{什么是快乐星球}
+本文的章节结构安排如下：
+
+xxxxxxx
+
+
+\chapter{第二章了！}
+这是一个参考文献示例\cite{PRODEN}
+
+\section{Apple M1}
+这是一个公式
+\begin{equation}
+	y=A x+b
+\end{equation}
+
+\chapter{需要几章自己加一下！}
+
+%这里是结束语
+\thesisconclusion
+
+% 致谢区域
+\thesisacknowledgement
+
+本论文采用\LaTeX 模版编写的，是基于南京邮电大学2021年理工艺教类的Word模板进行严格迁移编写的。本模板地址\url{https://github.com/dhiyu/NJUPT-Bachelor}感谢imguozr（\url{https://github.com/imguozr/NJUPThesis-Bachelor} ）和lemoxiao（\url{https://github.com/lemoxiao/NJUPThesis-Scholar} ）的工作，为本模板的形成奠定了大量的基础。
+
+% 参考文献区域
+\thesisreference
+
+%附录区域
+\thesisappendix
+
+\section{本科期间的学术成果发表情况}
+\begin{itemize}
+	\item 发表一篇Nature
+	\item 获得了诺贝尔奖
+	\item 当选足球先生
+	\item 开发了1nm光刻机一台
+\end{itemize}
+
+\section{本科期间的获奖情况}
+\begin{itemize}
+	\item 设计了一块RTX5090
+	\item 准备移民火星
+	\item 去太阳上面看看
+\end{itemize}
+
+\end{document}

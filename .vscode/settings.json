@@ -1,0 +1,125 @@
+{
+    // ==================== LaTeX Workshop 配置 ====================
+    "latex-workshop.showContextMenu": true,
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    // 编译工具（最常用：xelatex 支持中文）
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                // "-pdf",
+                "-shell-escape",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    // 编译命令
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ],
+        },
+        {
+            "name": "xelatex*2",
+            "tools": [
+                "xelatex",
+                "xelatex"
+            ],
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdf->bib->pdf->pdf",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipe.default": "xe->bib->xe->xe",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.tex": "${basename}.*"
+    },
+    // 清理辅助文件
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+    // 1. 强制使用外部预览器
+    "latex-workshop.view.pdf.viewer": "external",
+    // 2. 外部查看器启动命令（Skim）
+    "latex-workshop.view.pdf.external.viewer.command": "/Applications/Skim.app/Contents/MacOS/Skim",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "%PDF%"
+    ],
+    // 3. 正向搜索（.tex → PDF 对应行：Cmd+Option+V）
+    "latex-workshop.view.pdf.external.synctex.command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-r", // 重用已打开窗口
+        "%LINE%", // 当前行号
+        "%PDF%", // PDF 文件
+        "%TEX%" // 源 .tex 文件
+    ],
+    // 4. 自动编译 + 自动打开外部预览
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.view.pdf.autoView": true,
+    // 5. 关闭自动清理（避免 SyncTeX 断连）
+    "latex-workshop.latex.autoClean.run": "never",
+}
