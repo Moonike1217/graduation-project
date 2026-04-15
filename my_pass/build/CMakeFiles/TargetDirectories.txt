@@ -1,0 +1,10 @@
+/src/my_pass/build/CMakeFiles/intrinsics_gen.dir
+/src/my_pass/build/CMakeFiles/omp_gen.dir
+/src/my_pass/build/CMakeFiles/acc_gen.dir
+/src/my_pass/build/CMakeFiles/ARMTargetParserTableGen.dir
+/src/my_pass/build/CMakeFiles/AArch64TargetParserTableGen.dir
+/src/my_pass/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/src/my_pass/build/CMakeFiles/MyArrayPass.dir
+/src/my_pass/build/CMakeFiles/run_tests.dir
+/src/my_pass/build/CMakeFiles/edit_cache.dir
+/src/my_pass/build/CMakeFiles/rebuild_cache.dir
