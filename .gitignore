@@ -1,0 +1,30 @@
+# Build artifacts
+my_pass/build/
+my_pass/afl_array_state.o
+my_pass/custom_mutator.so
+my_pass/libafl_array_state.a
+my_pass/test/test.ll
+my_pass/test/test_afl
+
+# Fuzz output
+experiments/
+
+# LaTeX build artifacts
+essay_main/*.aux
+essay_main/*.bbl
+essay_main/*.blg
+essay_main/*.log
+essay_main/*.out
+essay_main/*.toc
+essay_main/*.lot
+essay_main/*.lof
+essay_main/*.pyg
+essay_main/*.vrb
+essay_main/*.snm
+essay_main/*.nav
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
