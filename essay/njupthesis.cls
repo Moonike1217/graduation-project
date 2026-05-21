@@ -27,30 +27,12 @@
 \RequirePackage{bm}
 
 \RequirePackage{xeCJK}
-\RequirePackage{ifplatform}
 
-% 各个系统下字体的引入
-\ifwindows
-  \setallmainfonts{Times New Roman}
-  \setCJKmainfont[AutoFakeBold=true]{SimSun}
-  \newCJKfontfamily{\heiti}{SimHei}
-  \newCJKfontfamily{\kaiti}{KaiTi}
-\else
-	\ifmacosx
-	  \setallmainfonts{Times New Roman}
-    % \setCJKmainfont[AutoFakeBold=true]{SimSun}
-    \setCJKmainfont[AutoFakeBold=true]{Songti SC}
-	  \newCJKfontfamily{\heiti}{SimHei}
-	  \newCJKfontfamily{\kaiti}{KaiTi}
-	\else
-    % Overleaf: from local Font/ directory
-    % \setallmainfonts does not support Path=, use \setmainfont instead
-    \setmainfont[Path=./Font/, BoldFont=timesbd.ttf, ItalicFont=timesi.ttf, BoldItalicFont=timesbi.ttf]{times.ttf}
-    \setCJKmainfont[AutoFakeBold=true, Path=./Font/]{SimSun}
-	  \newCJKfontfamily{\heiti}[Path=./Font/]{SimHei}
-	  \newCJKfontfamily{\kaiti}[Path=./Font/]{KaiTi}
-	\fi
-\fi
+% Use local Font/ directory (compatible with Overleaf, macOS, Windows, Linux)
+\setmainfont[Path=./Font/, BoldFont=timesbd.ttf, ItalicFont=timesi.ttf, BoldItalicFont=timesbi.ttf]{times.ttf}
+\setCJKmainfont[AutoFakeBold=true, Path=./Font/]{SimSun}
+\newCJKfontfamily{\heiti}[Path=./Font/]{SimHei}
+\newCJKfontfamily{\kaiti}[Path=./Font/]{KaiTi}
 
 \RequirePackage{zhnumber}
 \RequirePackage{pifont}
