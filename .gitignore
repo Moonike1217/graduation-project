@@ -5,23 +5,30 @@ my_pass/custom_mutator.so
 my_pass/libafl_array_state.a
 my_pass/test/test.ll
 my_pass/test/test_afl
+*.o
+*.lo
+*.la
+*.ll
+*.bc
 
 # Fuzz output
 experiments/
+code_new/experiments/
+code_new/experiment_*/
 
 # LaTeX build artifacts
-essay_main/*.aux
-essay_main/*.bbl
-essay_main/*.blg
-essay_main/*.log
-essay_main/*.out
-essay_main/*.toc
-essay_main/*.lot
-essay_main/*.lof
-essay_main/*.pyg
-essay_main/*.vrb
-essay_main/*.snm
-essay_main/*.nav
+essay_new/*.aux
+essay_new/*.bbl
+essay_new/*.blg
+essay_new/*.log
+essay_new/*.out
+essay_new/*.toc
+essay_new/*.lot
+essay_new/*.lof
+essay_new/*.pyg
+essay_new/*.vrb
+essay_new/*.snm
+essay_new/*.nav
 
 # OS files
 .DS_Store

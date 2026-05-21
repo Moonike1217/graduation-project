@@ -1,0 +1,10 @@
+let s1 = "hello";
+let s2 = "world";
+let s3 = s1 + " " + s2;
+let s4 = "abc";
+let s5 = "ABC";
+let cmp = (s1 === "hello");
+let cmp2 = (s4 !== s5);
+print(s3);
+print(cmp);
+print(cmp2);

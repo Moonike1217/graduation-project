@@ -1,0 +1,38 @@
+@startuml
+!theme plain
+skinparam backgroundColor white
+skinparam actorBorderColor #333333
+skinparam participantBorderColor #333333
+skinparam participantBackgroundColor #fafafa
+skinparam participantFontName SimSun
+skinparam participantFontSize 11
+skinparam arrowColor #333333
+skinparam sequenceMessageAlign center
+skinparam sequenceMessageFontName SimSun
+skinparam sequenceMessageFontSize 9
+
+== 准备阶段 ==
+
+actor "静态分析模块" as SA
+participant "插桩模块" as IM
+participant "目标程序" as TP
+participant "运行时库" as RT
+participant "选择模块" as SM
+database "种子队列" as SQ
+
+SA -> IM : 数组信息表
+IM -> TP : 插桩后IR
+
+== 执行阶段 ==
+
+SQ -> TP : 选取种子执行
+TP -> RT : 运行时状态数据
+
+== 反馈阶段 ==
+
+RT -> SM : 多样性评分
+SM -> SQ : 调度决策
+SQ -> TP : 下一轮种子
+
+note right of SQ : ⟳ 闭环反馈
+@enduml

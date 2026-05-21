@@ -1,0 +1,27 @@
+@startuml
+!theme plain
+skinparam backgroundColor white
+skinparam actorBorderColor #333333
+skinparam participantBorderColor #333333
+skinparam participantBackgroundColor #fafafa
+skinparam participantFontName SimSun
+skinparam participantFontSize 11
+skinparam arrowColor #333333
+skinparam sequenceMessageAlign center
+skinparam sequenceMessageFontName SimSun
+skinparam sequenceMessageFontSize 9
+
+actor "Pass管理器" as PM
+participant "ArrayInstrumentPass" as AIP
+participant "GEP指令集" as GEPs
+participant "IRBuilder" as IRB
+
+PM -> AIP : runOnModule()
+AIP -> AIP : 读取数组信息表
+AIP -> GEPs : 遍历目标GEP指令
+AIP -> AIP : 确定访问类型
+AIP -> AIP : 生成ArrayID
+AIP -> IRB : SetInsertPoint(Inst)
+IRB --> AIP : 插入监控调用
+AIP --> PM : 返回插桩后IR
+@enduml

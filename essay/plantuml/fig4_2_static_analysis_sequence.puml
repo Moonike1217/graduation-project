@@ -1,0 +1,25 @@
+@startuml
+!theme plain
+skinparam backgroundColor white
+skinparam actorBorderColor #333333
+skinparam participantBorderColor #333333
+skinparam participantBackgroundColor #fafafa
+skinparam participantFontName SimSun
+skinparam participantFontSize 11
+skinparam arrowColor #333333
+skinparam sequenceMessageAlign center
+skinparam sequenceMessageFontName SimSun
+skinparam sequenceMessageFontSize 9
+
+actor "PassManager" as PM
+participant "ArrayAnalysisPass" as AAP
+participant "函数/基本块" as Func
+participant "GEP指令" as GEP
+
+PM -> AAP : runOnModule()
+AAP -> Func : 遍历函数和基本块
+Func -> GEP : 扫描GEP指令
+GEP --> AAP : 返回数组信息
+AAP -> AAP : 计算影响力分数
+AAP --> PM : 返回分析结果
+@enduml

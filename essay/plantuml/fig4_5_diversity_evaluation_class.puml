@@ -1,0 +1,42 @@
+@startuml
+!theme plain
+skinparam backgroundColor white
+skinparam classBorderColor #333333
+skinparam classBorderThickness 1
+skinparam classHeaderBackgroundColor #f0f0f0
+skinparam classFontColor #333333
+skinparam classFontSize 12
+skinparam classAttributeFontSize 10
+skinparam classFontName SimSun
+skinparam classAttributeFontName SimSun
+
+class ArrayStateTracker {
+  - visitedSlots : bitmap
+  - slotAccessCount : int[]
+  - arrayStateMap : map<uint32, ArrayState*>
+  + updateState(arrayID, idx) : void
+  + getState(arrayID) : ArrayState*
+  + resetState() : void
+}
+
+class EntropyCalculator {
+  + calculateEntropy(freq[], N) : double
+  + getNormalizedScore(entropies[]) : double
+}
+
+class DiversityScorer {
+  + calculateSDS(visited, total) : double
+  + getOverallScore() : double
+}
+
+class ArrayState {
+  - arrayID : uint32
+  - slotCount : int
+  - accessFrequency : map<slot, count>
+}
+
+ArrayStateTracker --> ArrayState : 维护 >
+ArrayStateTracker --> EntropyCalculator : 使用 >
+ArrayStateTracker --> DiversityScorer : 使用 >
+EntropyCalculator ..> DiversityScorer : 聚合
+@enduml

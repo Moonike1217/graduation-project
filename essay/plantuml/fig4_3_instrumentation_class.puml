@@ -1,0 +1,34 @@
+@startuml
+!theme plain
+skinparam backgroundColor white
+skinparam classBorderColor #333333
+skinparam classBorderThickness 1
+skinparam classHeaderBackgroundColor #f0f0f0
+skinparam classFontColor #333333
+skinparam classFontSize 12
+skinparam classAttributeFontSize 10
+skinparam classFontName SimSun
+skinparam classAttributeFontName SimSun
+
+class ArrayInstrumentPass {
+  - GEPList : GetElementPtrInst*
+  + doInitialization() : bool
+  + runOnModule() : bool
+  + runOnFunction(F) : bool
+  + generateArrayID(func, var) : uint32
+}
+
+class IRBuilder {
+  - insertPoint : Instruction*
+  + SetInsertPoint(Inst) : void
+  + CreateCall(...) : CallInst*
+  + CreateZExtOrTrunc(Val, Ty) : Value*
+}
+
+class "__afl_report_array_state" as ReportFunc {
+  + report(array_id, index, access_type, line) : void
+}
+
+ArrayInstrumentPass --> IRBuilder : 使用 >
+ArrayInstrumentPass ..> ReportFunc : 插入调用 >
+@enduml

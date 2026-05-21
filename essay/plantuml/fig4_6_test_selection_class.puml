@@ -1,0 +1,45 @@
+@startuml
+!theme plain
+skinparam backgroundColor white
+skinparam classBorderColor #333333
+skinparam classBorderThickness 1
+skinparam classHeaderBackgroundColor #f0f0f0
+skinparam classFontColor #333333
+skinparam classFontSize 12
+skinparam classAttributeFontSize 10
+skinparam classFontName SimSun
+skinparam classAttributeFontName SimSun
+
+class ScoreManager {
+  - alpha : float
+  - beta : float
+  - gamma : float
+  + calculateCombinedScore() : double
+  + getFinalScore() : double
+}
+
+class DistanceScorer {
+  + getDistanceScore(q) : double
+}
+
+class DiversityScorer {
+  + getDiversityScore(q) : double
+}
+
+class WeightConfig <<struct>> {
+  - alpha : float
+  - beta : float
+  - gamma : float
+}
+
+class TestCaseSelector {
+  - queue : queue_entry*
+  + selectNext() : queue_entry*
+  + assignEnergy(q, score) : u32
+}
+
+ScoreManager --> DistanceScorer : 调用 >
+ScoreManager --> DiversityScorer : 调用 >
+TestCaseSelector --> ScoreManager : 使用 >
+TestCaseSelector --> WeightConfig : 配置 >
+@enduml

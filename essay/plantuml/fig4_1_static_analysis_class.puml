@@ -1,0 +1,30 @@
+@startuml
+!theme plain
+skinparam backgroundColor white
+skinparam classBorderColor #333333
+skinparam classBorderThickness 1
+skinparam classHeaderBackgroundColor #f0f0f0
+skinparam classFontColor #333333
+skinparam classFontSize 12
+skinparam classAttributeFontSize 10
+skinparam classFontName SimSun
+skinparam classAttributeFontName SimSun
+
+class ArrayAnalysisPass <<ModulePass>> {
+  - funcList : Function*
+  + runOnModule() : bool
+  + collectArrayInfo() : void
+  + calculateInfluence(GEP, F) : float
+}
+
+class ArrayInfo <<struct>> {
+  - varName : string
+  - typeInfo : Type*
+  - length : int
+  - dimensions : int
+  - influenceScore : float
+  + getArrayInfo() : ArrayInfo
+}
+
+ArrayAnalysisPass --> ArrayInfo : 输出 >
+@enduml

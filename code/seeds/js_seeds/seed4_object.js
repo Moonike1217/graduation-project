@@ -1,0 +1,11 @@
+let obj = {x: 10, y: 20, name: "test"};
+let area = obj.x * obj.y;
+let name = obj.name;
+obj.z = 30;
+let keys = 0;
+if (obj.x) keys = keys + 1;
+if (obj.y) keys = keys + 1;
+if (obj.z) keys = keys + 1;
+print(area);
+print(name);
+print(keys);
